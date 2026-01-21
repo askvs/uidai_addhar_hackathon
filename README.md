@@ -84,7 +84,6 @@ uidai_project/
 │   ├── 04_pattern_discovery.ipynb
 │   ├── 05_advanced_analysis.ipynb
 │   └── 06_hackathon_advanced_analysis.ipynb
-├── 📂 notebook_pdf/            # PDF versions of notebooks
 ├── 📂 processed_data/          # Cleaned datasets
 │   ├── biometric_cleaned.csv
 │   ├── demographic_cleaned.csv
@@ -98,6 +97,42 @@ uidai_project/
 └── README.md                   # Project documentation (this file)
 ```
 
+
+
+## 🛠️ Technologies Used
+
+### 🐍 Core & Data Processing
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+
+### 📊 Visualization
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+![Seaborn](https://img.shields.io/badge/Seaborn-visuals?style=for-the-badge&color=77ACF1)
+
+### 🤖 Machine Learning & Analysis
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Statsmodels](https://img.shields.io/badge/Statsmodels-stats?style=for-the-badge&color=blue)
+
+
+
+---
+
+## 📝 Key Findings at a Glance
+
+### Operational Disparity
+> **North India** (8,802 activities/pincode) vs. **South India** (3,281 activities/pincode).
+
+### Demographic Reality
+> **65%** of new enrolments are **Children (0-5 years)**. Adult saturation is near 100%.
+
+### Prioritized Districts (Hotspots)
+The following districts are identified as **CRITICAL** for immediate intervention due to overcrowding:
+1.  **North East Delhi** (Delhi)
+2.  **West Delhi** (Delhi)
+3.  **Mahasamund** (Chhattisgarh)
+
+---
 ---
 
 ## 🚀 Getting Started
@@ -143,42 +178,6 @@ jupyter notebook
 2.  Proceed through the numbered notebooks to replicate the cleaning, EDA, and advanced analysis phases.
 
 ---
-
-## 🛠️ Technologies Used
-
-### 🐍 Core & Data Processing
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-
-### 📊 Visualization
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-![Seaborn](https://img.shields.io/badge/Seaborn-visuals?style=for-the-badge&color=77ACF1)
-
-### 🤖 Machine Learning & Analysis
-![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Statsmodels](https://img.shields.io/badge/Statsmodels-stats?style=for-the-badge&color=blue)
-
-
-
----
-
-## 📝 Key Findings at a Glance
-
-### Operational Disparity
-> **North India** (8,802 activities/pincode) vs. **South India** (3,281 activities/pincode).
-
-### Demographic Reality
-> **65%** of new enrolments are **Children (0-5 years)**. Adult saturation is near 100%.
-
-### Prioritized Districts (Hotspots)
-The following districts are identified as **CRITICAL** for immediate intervention due to overcrowding:
-1.  **North East Delhi** (Delhi)
-2.  **West Delhi** (Delhi)
-3.  **Mahasamund** (Chhattisgarh)
-
----
-
 ## 🤝 Acknowledgements
 
 *   **UIDAI** for providing the dataset and the opportunity to innovate.
